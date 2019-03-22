@@ -1,0 +1,58 @@
+﻿@model ProjeOdev.Models.entity.Proje
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Proje</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ProjeBaslik)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ProjeBaslik)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ProjeIcerik)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ProjeIcerik)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Resim)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Resim)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Tarih)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Tarih)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UyeID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UyeID)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

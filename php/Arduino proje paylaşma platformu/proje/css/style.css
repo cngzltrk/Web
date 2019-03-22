@@ -1,0 +1,67 @@
+/* CSS Document */
+
+body{
+	background-color:#C2DFFF	;
+
+
+}
+
+.baslik{
+	font-size:36px;
+	font-family:"Comic Sans MS", cursive;
+	color:#437C17	;
+
+	margin:0 auto;
+}
+.logo{
+	margin-right:60px;
+	margin-left:30px;
+
+
+}
+.menu{
+	
+	background-color:#6AFB92;
+	font-family:"Comic Sans MS", cursive;
+	font-size:18px;
+}
+.yazi{
+	margin-bottom:0px;
+	font-size:24px;
+	font-family:"Comic Sans MS", cursive;
+	color:#437C17;
+	
+	}
+.mad{
+	margin-top:0px;
+	
+}
+.mad20{
+	margin-bottom: 20px;
+}
+.mad10{
+	margin-bottom: 10px;
+}
+.foot{
+	background-color:#6AFB92;
+	font-family:"Comic Sans MS", cursive;
+	font-size:18px;
+	height:50px;
+}
+.yardımorta{
+	background-color:#6AFB92;
+	font-family:"Comic Sans MS", cursive;
+	font-size:18px;
+	height:500px;
+}
+.formm{
+	margin-top:350px;
+	margin-left:50px;
+	width:400px;
+	height:400px;
+
+}
+.boot{
+	float: none;
+}
+

@@ -1,0 +1,31 @@
+body{
+    background:url(../resim/50-06.jpg) no-repeat center center fixed;
+    -webkit-background-size:cover;
+    background-size:cover;
+}
+
+.baslik{
+    font-size:36px;
+    font-family:"Comic Sans MS", cursive;
+    color:#FFF	;
+    margin:0 auto;
+}
+.foryazi{
+    color:#FFFFFF;
+    font-size:18px;
+    margin-bottom:5px;
+    text-align:left;
+
+
+}
+.link{
+    font-size:18px;
+    color:#FFFFFF;
+}
+.link:hover
+{
+    font-size:18px;
+    color:#FFFFFF;
+    font-weight:bold;
+
+}
